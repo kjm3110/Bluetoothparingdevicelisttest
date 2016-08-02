@@ -10,26 +10,26 @@
         android:id="@+id/textMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Hello_World!" />
+        android:text="@string/Hello_World" />
     <LinearLayout
         android:id="@+id/layoutInput"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textMessage">
+        android:layout_below="@+id/textMessage"
+        android:orientation="horizontal">
 
         <EditText
             android:id="@+id/editData"
             android:layout_width="0px"
-            android:layout_weight="3"
             android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:text="Receive Succeed"/>
 
         <Button
             android:id="@+id/btnSend"
             android:layout_width="0px"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:onClick="onClick"
             android:text="Send"/>
 
