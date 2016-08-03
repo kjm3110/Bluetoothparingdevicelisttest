@@ -104,6 +104,14 @@ public class MainActivity extends Activity
         return false;
     }
 
+
+
+
+
+
+
+    
+
     // 블루투스 활성화 요청 결과 수신
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == ACTION_ENABLE_BT) {
